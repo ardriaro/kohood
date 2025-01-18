@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "282987386919",
+    "project_id": "tugas-akhir-37a95",
+    "storage_bucket": "tugas-akhir-37a95.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282987386919:android:657db8f429b97b49739602",
+        "android_client_info": {
+          "package_name": "com.example.kohood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282987386919-muqccd6ga6vk0gppk6r1h6u9koaulkes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kohood",
+            "certificate_hash": "c22368be864b214b5c3813e6b0ea0f0a3ddbd7cf"
+          }
+        },
+        {
+          "client_id": "282987386919-fulnruj8qdu0dne8jncdqt71j24epr58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeANtx07HpjAXY0r7WJbZrwve8y1DKc8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282987386919-fulnruj8qdu0dne8jncdqt71j24epr58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "282987386919-q0blu5affmn7552v0718pkpvjcv29p19.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kohood"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
