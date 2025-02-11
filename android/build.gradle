@@ -9,10 +9,26 @@ buildscript {
     dependencies {
 
       // Add the Maven coordinates and latest version of the plugin
+<<<<<<< HEAD
       classpath 'com.google.gms:google-services:4.4.2'
     }
 }
 
+=======
+      classpath 'com.google.gms:google-services:4.3.15'
+      classpath 'com.android.tools.build:gradle:7.1.2'
+    }
+}
+
+plugins {
+  // ...
+
+  // Add the dependency for the Google services Gradle plugin
+  id 'com.google.gms.google-services' version '4.3.15' apply false
+
+}
+
+>>>>>>> 5867259 (update)
 allprojects {
 
   repositories {
@@ -22,14 +38,33 @@ allprojects {
   }
 }
 
+<<<<<<< HEAD
 rootProject.buildDir = '../build'
+=======
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+>>>>>>> 5867259 (update)
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }
 subprojects {
+<<<<<<< HEAD
     project.evaluationDependsOn(':app')
+=======
+    project.evaluationDependsOn(":app")
+>>>>>>> 5867259 (update)
 }
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5867259 (update)
